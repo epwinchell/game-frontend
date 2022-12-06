@@ -118,103 +118,103 @@
       "id": 20,
       "type": 2,
       "name": "Meaningful Logs",
-      "description": ""
+      "description": "Developers must choose log level appropriately:'debug' for more detailed information, 'info' for user drive actions. 'warn' for potential errors, and 'error' for application level errors. Of course, you can easily change the log level for your application. This way, you can get sufficient information to defect potential issues without wasting valuable disk space!"
     },
     {
       "id": 21,
       "type": 2,
       "name": "One of these things is not like the other",
-      "description": ""
+      "description": "Analyze your logs to identify unexpected behavior. By defining expected behavior, you can find anomalies (e.g., 1,000 failed login attempts in less than a minute). Anomaly detection could also help you identify where in your system resources are being overloaded, thus preventing delays or issues in the processing of user requests."
     },
     {
       "id": 22,
       "type": 2,
       "name": "Easy Peasy",
-      "description": ""
+      "description": "Adding relevant logs should be as easy as making a one-line code change. For example, your authentication library provides the method logSuccessfulAuthentication(...). This allows for consistency and to easily record important - and repetitive events. Later on, you can even get usage stats!"
     },
     {
       "id": 23,
       "type": 2,
       "name": "No Surprises",
-      "description": ""
+      "description": "Anyone who wants to see metrics on how your service is running should be able to access the data easily. You have an easily accessible website that displays metrics on traffic, deployments, test results, etc., for anyone on the team to review."
     },
     {
       "id": 24,
       "type": 2,
       "name": "Full-Stack Telemetry Coverage",
-      "description": ""
+      "description": "You have telemetry set up for your entire stack: front-end, back-end, infrastructure, build, and deployment, etc. When debugging an issue, you can easily identify which part(s) of your stack had problems (e.g., was it the network, a library upgrade, or a feature flag?)."
     },
     {
       "id": 25,
       "type": 2,
       "name": "Measure your Infrastructure",
-      "description": ""
+      "description": "You have tools set up (e.g., dashboards, alarms, etc.) to observe the status of your infrastructure as a whole. This means that in a system of services that communicate with each other, whenever there's an issue, it's quick and easy to identify which service is impacted."
     },
     {
       "id": 26,
       "type": 2,
       "name": "Better Safe than Sorry",
-      "description": ""
+      "description": "Integrate security into every step of the development, delivery, and deployment process. You can use automated security checks for known vulnerabilities when submitting your code. This allows you to catch vulnerabilities early without compromising your systems or the user's data."
     },
     {
       "id": 27,
       "type": 2,
       "name": "Goodbye Darkness My Old Friend",
-      "description": ""
+      "description": "You have dashboards in place to help you identify long processing requests, high traffic times, and the most-used service calls. This enables you to anticipate issues, work on improvements, or debug faster!"
     },
     {
       "id": 28,
       "type": 3,
       "name": "Go Beyond the Chat Room",
-      "description": ""
+      "description": "Many organizations use chat rooms to facilitate collaboration, transparency, and knowledge-sharing. You can also use chat bots to automate processes and capture organizational knowledge. For example, events such as code commits or production deployments can automatically emit status updates for everyone to see! Or the chatbot can respond with a link to a library's documentation or answers to frequently asked questions for quick and easy access."
     },
     {
       "id": 29,
       "type": 3,
       "name": "Blame is Stupid",
-      "description": ""
+      "description": "After a major incident has been resolved. hold a post-mortem meeting to discuss what happened, why, and how to avoid having it happen again in the future. Do not point fingers! This practice allows everyone to learn, prevents the incident from occurring again, and helps enable a just culture."
     },
     {
       "id": 30,
       "type": 3,
       "name": "Master of Disaster",
-      "description": ""
+      "description": "Institute days to rehearse for BIG failures. Schedule a 'future catastrophic event', and give teams time to prepare, eliminate all single points of failure, and create any necessary procedures. This tabletop exercise will expose latent defects and prepare your people for when real problems occur."
     },
     {
       "id": 31,
       "type": 3,
       "name": "Be a Builder, not a Bricklayer",
-      "description": ""
+      "description": "The codification of standards and processes which encompass the sum of the company's organizational knowledge should be automated in an executable form that makes it easy to reuse. Consider putting this knowledge in a centralized source code repository or creating a shared service that everyone can use."
     },
     {
       "id": 32,
       "type": 3,
       "name": "Single Source of Truth",
-      "description": ""
+      "description": "Having a means to maintain good versions of libraries and dependencies is imperative and will reduce operational burden and stress. This could be achieved by using a firm-wide, shared source code repository or a package management system. When a shared library is updated, it propagates to every other service that uses it, an approach that is integrated throughout each team's deployment pipeline."
     },
     {
       "id": 33,
       "type": 3,
       "name": "Ignorance Is NOT Bliss",
-      "description": ""
+      "description": "Share libraries and documentation! Enable everyone to share their work and knowledge. Provide platforms to share knowledge via internal forums, wikis, and search engines. It should also be easy to publish information to be shared!"
     },
     {
       "id": 34,
       "type": 3,
       "name": "Chaos is a Ladder",
-      "description": ""
+      "description": "Inject chaos! Break things in a controlled environment to see how your system reacts. Chaos testing randomizes breakages to help find unpredictable bugs. Not only does this approach keep Engineering teams on their toes, but also will make your organization and its systems more resilient!"
     },
     {
       "id": 35,
       "type": 3,
       "name": "Share widely your learnings from Mistakes",
-      "description": ""
+      "description": "Document post-mortem* meetings and make this information available to everyone. You want to prevent anyone else from repeating the same mistake or getting blocked by a similar issue. *Post-mortem: the process of reviewing an incident, identifying what happened, and what can be done better to prevent it from reoccurring in the future."
     },
     {
       "id": 36,
       "type": 3,
       "name": "Raise the Bar",
-      "description": ""
+      "description": "Once your error detection practices have become a habit, start looking to prevent issues, instead of just fixing them. Get into the mindframe of thinking about potential issues from the outset - before they become a reality. This will save time by preventing the team from putting out fires down the line."
     }
   ]
 }
