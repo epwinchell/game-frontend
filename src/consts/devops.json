@@ -1,0 +1,220 @@
+{
+  "devops": [
+    {
+      "id": 1,
+      "type": 1,
+      "name": "Scraping Merge Hell",
+      "description": "Your team runs automated checks on any pull request* into trunk*. Nothing gets merged without passing the checks! This practice keeps the repository stable and helps reviewers catch bugs early! *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project. *Trunk or main: in version control, this is the branch that contains reviewed and approved code; it constitutes the source of truth of your application"
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "name": "Multitasking Makes You Stupid",
+      "description": "Limit how much work in progress is allowed! Is there something blocking a task? Identify and address the blocker before starting another task, or finish what you've started before taking on a new task."
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "name": "Environments a la Carte",
+      "description": "The Development team has a number of self-service tools that allow it to create production-like environments on-demand. These tools allow developers to run the software in their own machines to get immediate feedback on how their code would behave in production without having to actually deploy it. Scaling issues? They can also easily spin up new machines without worrying about dependencies! Tools that allow you to do this include: containers, virtual machines, infrastructure as code, etc."
+    },
+    {
+      "id": 4,
+      "type": 1,
+      "name": "Dark Launches",
+      "description": "This practice is the deployment of features to production, while not making them accessible to users right away. Instead, users are enabled progressively or in groups. This practice allows developers to do A/B testing* of new features or designs against real users. *A/B testing: a user experience research methodology used for evaluating two hypothesis against different user groups and evaluate which one was more successful given some predefined metrics."
+    },
+    {
+      "id": 5,
+      "type": 1,
+      "name": "Put the Pieces Together",
+      "description": "It's best to check if your feature even works! Luckily, your team has the habit of writing integration tests for each feature. After all, you should check that all your classes and modules interact with each other as expected. Build your feature, create a few cases, and test it from end-to-end!"
+    },
+    {
+      "id": 6,
+      "type": 1,
+      "name": "Feature Toggles",
+      "description": "You can implement feature toggles by wrapping application logic or user interface elements with a conditional statement. This approach allows developers to turn on/off individual features if they break, if dependencies are not yet ready or if they are tied to a particular release date."
+    },
+    {
+      "id": 7,
+      "type": 1,
+      "name": "Canary Release Pattern",
+      "description": "In this pattern, you can run multiple stages of the production environment. Software gets rolled out first to a subset of users (your Canaries*) and then progressively to the rest. If something goes wrong in this first subset, you can roll the software version back. Otherwise, you roll it out to the next production environment. This pattern allows minimizing the impact of your release, your canaries can be internal users, testers, or any lower impact production stage."
+    },
+    {
+      "id": 8,
+      "type": 1,
+      "name": "Fix Version",
+      "description": "Libraries are often updated. As they should! But, an updated dependency could break your application. To avoid surprises, pin the version of your dependencies. This will allow you to keep a stable working version of your code and will give you time to check the new behavior of updated libraries (e.g., package.lock, poetry, debian distributions, etc.)."
+    },
+    {
+      "id": 9,
+      "type": 1,
+      "name": "Build Automation",
+      "description": "The process of fetching code, compiling it, and packaging it in an automated manner can be achieved via scripts, continuous integration, and delivery tools, among others. Build automation allows software to be compiled and packaged in a consistent way, avoiding errors that may be introduced manually, such as building against the wrong branch, wrong libraries, missing configuration files, etc."
+    },
+    {
+      "id": 10,
+      "type": 1,
+      "name": "Catch Me If You Can",
+      "description": "You just merged the last code changes for a new feature and automated testing passed. Why wait or deploy manually? Deploy it straight away! Continuous deployment allows you to automatically release your code changes into the production environment, making it available to users. Automated deployments can be configured to suit your deployment schedule and stages, minimizing impact and allowing time for testing."
+    },
+    {
+      "id": 11,
+      "type": 1,
+      "name": "Blue-Green Deployment Pattern",
+      "description": "In this pattern, you have two production environments - the blue one and the green one. The new version of your code gets deployed to one of them and user traffic is migrated progressively. This approach allows for both testing in the production environment and easy rollback with no downtime."
+    },
+    {
+      "id": 12,
+      "type": 1,
+      "name": "Remove the Manual Bottleneck",
+      "description": "Whenever you have any product, you should check if it is working properly every now and then. But why bother running the code by hand? Just automate it! Write some scripts that interact with your programmatic interfaces. Let this be a service request, a class' new method, or a new library function."
+    },
+    {
+      "id": 13,
+      "type": 1,
+      "name": "Alarm! Alarm!",
+      "description": "If a production issue arises that cannot be fixed within the allotted time, don't hesitate to 'pull the Andon Cord' - that is, ring the alarm and get all hands on deck! Developed in the '90s by Toyota, this process involved a physical cord that followed the assembly line in the production facility. When a serious issue occurs, any team member has the right to halt the production line and get the attention of the entire team until the issue is resolved, so production can resume."
+    },
+    {
+      "id": 14,
+      "type": 1,
+      "name": "Divide and Conquer",
+      "description": "When working on a feature try to divide into smaller pieces of work. Submitting big code changes infrequently makes reviewing the code a nightmare and makes it more difficult to stay on top of everyone else' changes. Smaller and more frequent code changes enable developers to work together on bigger pieces of work and keep pull requests* smaller and easier to review. *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 15,
+      "type": 1,
+      "name": "Leave the Formatting for the Linter",
+      "description": "Style checking and linting* whenever a pull request* is opened allows reviewers to focus on the implementation. It also forces developers to use the same format, thereby minimizing the differences displayed in the pull request. *Linting: the automated checking of source code for programmatic and stylistic errors. *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 16,
+      "type": 1,
+      "name": "Immutable Infrastructure",
+      "description": "Any changes to a production environment should first go through version control, and the environment should be re-created from scratch. This allows for easy recovery or generation of new machines."
+    },
+    {
+      "id": 17,
+      "type": 1,
+      "name": "Code Analyzer",
+      "description": "Run static code analysis on commits whenever a pull request* is opened. Just remember that reviewers are your colleagues! Spare some time and check your pull request before asking them to review it. Static analysis* is often used to uncover security vulnerabilities, performance issues, non-compliance with standards, use of out-of-date constructs, etc. *Static Analysis: automated analysis of code without executing the application vs. Dynamic Analysis which tests and analyses code at execution. *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 18,
+      "type": 1,
+      "name": "Make the Work Visible",
+      "description": "Your team uses visual boards (e.g., kanban) or sprint planning boards to keep track of ongoing items. These enable your team to track which items belong to the current sprint, including their sizing, description, acceptance criteria, ownership, and status, among other things. *Kanban: a visual system used to manage and keep track of work as it moves through a process. *Sprint: a short period of time in which a team works to complete specific tasks, often breaking the project into digestible blocks."
+    },
+    {
+      "id": 19,
+      "type": 2,
+      "name": "Big Brother Infrastructure",
+      "description": "Centralized telemetry* infrastructure enables you to add logs at different levels - by application, business, or environment - so you can get metrics on failures, usage, traffic, etc. *telemetry: the process of gathering performance or health data of any product or application."
+    },
+    {
+      "id": 20,
+      "type": 2,
+      "name": "Meaningful Logs",
+      "description": ""
+    },
+    {
+      "id": 21,
+      "type": 2,
+      "name": "One of these things is not like the other",
+      "description": ""
+    },
+    {
+      "id": 22,
+      "type": 2,
+      "name": "Easy Peasy",
+      "description": ""
+    },
+    {
+      "id": 23,
+      "type": 2,
+      "name": "No Surprises",
+      "description": ""
+    },
+    {
+      "id": 24,
+      "type": 2,
+      "name": "Full-Stack Telemetry Coverage",
+      "description": ""
+    },
+    {
+      "id": 25,
+      "type": 2,
+      "name": "Measure your Infrastructure",
+      "description": ""
+    },
+    {
+      "id": 26,
+      "type": 2,
+      "name": "Better Safe than Sorry",
+      "description": ""
+    },
+    {
+      "id": 27,
+      "type": 2,
+      "name": "Goodbye Darkness My Old Friend",
+      "description": ""
+    },
+    {
+      "id": 28,
+      "type": 3,
+      "name": "Go Beyond the Chat Room",
+      "description": ""
+    },
+    {
+      "id": 29,
+      "type": 3,
+      "name": "Blame is Stupid",
+      "description": ""
+    },
+    {
+      "id": 30,
+      "type": 3,
+      "name": "Master of Disaster",
+      "description": ""
+    },
+    {
+      "id": 31,
+      "type": 3,
+      "name": "Be a Builder, not a Bricklayer",
+      "description": ""
+    },
+    {
+      "id": 32,
+      "type": 3,
+      "name": "Single Source of Truth",
+      "description": ""
+    },
+    {
+      "id": 33,
+      "type": 3,
+      "name": "Ignorance Is NOT Bliss",
+      "description": ""
+    },
+    {
+      "id": 34,
+      "type": 3,
+      "name": "Chaos is a Ladder",
+      "description": ""
+    },
+    {
+      "id": 35,
+      "type": 3,
+      "name": "Share widely your learnings from Mistakes",
+      "description": ""
+    },
+    {
+      "id": 36,
+      "type": 3,
+      "name": "Raise the Bar",
+      "description": ""
+    }
+  ]
+}

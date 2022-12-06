@@ -1,0 +1,156 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "scenario": "Your team is collaborating with another team on a big new project. You need to provide an API* that they will call from their brand new service! What started as a fast and easy task has taken so much more time. The requirements keep getting misunderstood and the work bounces between teams endlessly! *API or Application Programming Interface: a set of rules that define how programs can communicate with each other."
+    },
+    {
+      "id": 2,
+      "scenario": "You have been working on a new feature and it looks like the code is ready. Yay! However, the development environment is unstable, which is making it difficult to test your changes. Can you think of a tool or practice that would allow you to test the code's behavior before releasing the changes to production?"
+    },
+    {
+      "id": 3,
+      "scenario": "Ahmed from Sales has closed several new deals, which means you have a number of new clients to onboard. Yay! New machines need to be added. Monica, who was responsible for bringing up new machines, left the company last year and now Carlos is in charge of this task. Does Carlos know all the requirements the software needs to run? What about space, memory, architecture, or dependencies? Are there any tools that could be helpful?"
+    },
+    {
+      "id": 4,
+      "scenario": "Oh no! Your latest release has a serious bug. Customer service was in a panic and needed support urgently, but half of the Development team was on holiday. Joey came to the rescue and made a patch quickly before any other clients noticed the issue. However, the fix did not get committed to the main branch* and the bug will likely show up again in the next release. Do you have any practice or tools to avoid an issue like this?"
+    },
+    {
+      "id": 5,
+      "scenario": "The Sales team has been buzzing lately and there are several new features promised to your new clients! However, the Development team is overloaded, with each developer already owning a big feature that needs to be implemented. There is barely enough bandwidth for bug fixes and no one knows what their teammates are working on. On top of everything, one of your teammates is going away on holiday next week and no one is familiar with the task they are working on! Is there any tool or practice that would have prevented this situation?"
+    },
+    {
+      "id": 6,
+      "scenario": "Sales has brought up a few big new contracts! They come with a bunch of new features and client commitments that the team must implement. However, having so many people contributing at the same time on so many new features is making the application unstable! Patricia just finished a new feature right on time. Phew! But, in doing so, she broke the one Jay was working on!"
+    },
+    {
+      "id": 7,
+      "scenario": "The team inadvertently made changes to a service's API* that is used by many teams within the organization, causing their workflows to fail! Changes were meant to be backward compatible. Can you think of a tool or practice that can warn you if that's not the case? *API or Application Programming Interface: a set of rules that define how programs can communicate with each other."
+    },
+    {
+      "id": 8,
+      "scenario": "John has been delivering a lot of new changes lately! However, their pull requests* are too big and are mostly changes like code style and indentation, making reviews painful and bugs hard to spot! Are there any tools that would help keep pull requests limited to just code changes rather than styling? *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 9,
+      "scenario": "Shreya has been working for a week on a task that is now ready to review! But, wait a second, Jacinda has been working on the same task too! The team has a lot to do and having two developers doing the same job means wasting time and resources away from other priorities. The team lacks communication. Are there tools or practices that can help you address this issue?"
+    },
+    {
+      "id": 10,
+      "scenario": "Pete and Sophie have been working on a feature during the last sprint*. The next step before release is Quality Assurance (QA) testing. However, the QA team didn't know the feature was ready to test until a week later. This delayed the release, causing the company to miss a client commitment! Is there any tool that allows you to keep track of the status of some piece of work? *Sprint: a short period of time in which a team works to complete specific tasks, often breaking the project into digestible blocks."
+    },
+    {
+      "id": 11,
+      "scenario": "The Development team has been working on a new feature and it looks great! During development, it added log lines for every single step of the workflow. Logs have been amazingly helpful for debugging and during implementation. However, your application now takes up too much disk space, thanks to its logs! You don't want to get rid of all your log lines. Some are good for debugging, while others are good for getting usage statistics. Is there a way to distinguish between them?"
+    },
+    {
+      "id": 12,
+      "scenario": "The Development team has been busy adding bug fixes, features, etc. It has been great to have so many people contributing to the application! However, people have started stepping on each other's toes and inadvertently breaking each other's work. Are there any tools or practices to prevent these sorts of conflicts from occurring?"
+    },
+    {
+      "id": 13,
+      "scenario": "There are too many logs from different services. All the log files are stored in different folders or even on different machines! It is difficult to access them or get any meaning out of them. Is there a tool that allows you to gather these logs, parse them, and get some meaning out of them?"
+    },
+    {
+      "id": 14,
+      "scenario": "Your team has appropriate log levels set up in its application code. To improve stability and user experience, it has also configured an alarm system in case of failures. However, your developers are getting notified of so many false alarms, that they are wasting time and missing actual issues. Is there a way to set a threshold so they do not get an alarm on every failure? Are there any other improvements on their alarming system that you can think of?"
+    },
+    {
+      "id": 15,
+      "scenario": "Your client base has grown immensely in the last year. You have way more machines to keep track of, making your manual release process more complicated! A client just complained of a bug that was fixed two releases ago. While debugging, you find out that there are machines still running old versions of the software, exposing clients to old bugs and outdated code! Is there a tool or practice that may help you prevent this in the future?"
+    },
+    {
+      "id": 16,
+      "scenario": "Jared submitted a pull request* that contains 5,000 lines of code changes, including bug fixes, new features, and code refactoring. Britney and Fernando had to review the code before merging, but it was very difficult and time-consuming to do it and a few bugs were missed. *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 17,
+      "scenario": "In the past, your team did very infrequent releases. However, this was too slow imagine waiting months for a bug fix! - and it decided to make some changes. The team decided to adopt Agile* practices and to release after every sprint*. But, what sounded like a great plan caused 40 production incidents, hurting the team's morale and reducing management's trust in the team! *Agile methodologies allow you to define the requirements as you go, via timed boxed iterations, sometimes called sprints."
+    },
+    {
+      "id": 18,
+      "scenario": "As your application grows, so does the time it takes to test it. Currently, tests are running sequentially and manually. Going through all the test cases takes two weeks in the best case scenario, and even longer if an issue appears during regression testing*. *Regression testing: the practice of checking that previously implemented behavior still runs correctly."
+    },
+    {
+      "id": 19,
+      "scenario": "As your application grows, so does the time it takes to test it. Currently, tests are running sequentially and manually. Going through all the test cases takes two weeks in the best case scenario, and even longer if an issue appears during regression testing*. *Regression testing: the practice of checking that previously implemented behavior still runs correctly."
+    },
+    {
+      "id": 20,
+      "scenario": "You've got a new release*! This includes new features, as well as a bunch of bug fixes that clients have been waiting for. You can now happily inform Alonso, your product manager, that the release is finally available in production! However, one of the new features is not behaving as expected and needs to be fixed. Do you have to roll back the release and miss the client deadline, or is there any tool or practice that allows you to enable changes in an isolated manner? *Release: a group of changes to be delivered to production."
+    },
+    {
+      "id": 21,
+      "scenario": "Diego found a bug in the new feature and fixed it! He wants to merge the pull request* and release the code as fast as he can because clients will not be happy encountering the bug, but build time for the project is eight hours! Do you have a tool to do code analysis before building the project that will help Diego save some time on rebuilding the code? *Pull requests or merge requests: the practice of making your code available for review before submitting it into a project."
+    },
+    {
+      "id": 22,
+      "scenario": "There's been a production issue*! You need to analyze the logs to identify if the error is in the network, machine, or one of the application's services. However, the logs from different services, or application layers, are stored in different places. Do you have a centralized place where you can look for your logs? Is there a way to index, parse, and run queries on them? *Production issues: visible to end-users, these affect the intended behavior of the application. Fixing these is top priority!"
+    },
+    {
+      "id": 23,
+      "scenario": "Your team was trying to implement security into your log monitoring. In doing so, it added an alarm for when there are × number of failed login attempts in less than one minute. Prakash got called at 4 AM because of this alarm. It turns out, it was caused by a real user who forgot their password. Given that the front-end allows three password attempts per user before locking the account, it sounds like this situation should have been accounted for. Is × the correct threshold? Is there a way to make the alarms smarter when identifying anomalies?"
+    },
+    {
+      "id": 24,
+      "scenario": "Your team has dashboards that use logs o allow it to monitor your application's ehavior. Woop! However, to make the ost of this, you need to make sure to og meaningful events using the correct evel, format, and setup. s this an easy task for the Development eam? Does your logging library provide omething as easy as calling logMeaningfulEvent(...)?"
+    },
+    {
+      "id": 25,
+      "scenario": "Lucia, your product owner, is preparing for a client visit in Hawaii, which is eight hours ahead. They need information ASAP on which version of the application has been released. Unfortunately, you and the rest of the Development team are all sleeping at that time! How do you communicate release status to product owners? Is there any tool available that can do this for you?"
+    },
+    {
+      "id": 26,
+      "scenario": "The team's application receives user requests for data. In turn, it sends requests to other services to gather information. At 7 PM today, Harisha received a client ticket saying that a user request had not been processed. Bummer. She has noticed that requests are more likely to get dropped during the evening and suspects it has to do with high end-of-day traffic. How can she get more clarity on what is going on? Where in the system (and when) are resources being flooded? How can the team optimize its resources proactively?"
+    },
+    {
+      "id": 27,
+      "scenario": "A major production incident* occurred that disrupted a client's workflows and hurt the product's reputation. Your teammate Xi realized that the exact same issue occurred, on a smaller scale, a month ago, but had been covered up due to fear of the consequences. Xi is too terrified to speak up. While mistakes happen, is there a way to prevent these issues from happening again and treating them as learning opportunities? *Production issues: visible to end-users, these affect the intended behavior of the application. Fixing these is top priority!"
+    },
+    {
+      "id": 28,
+      "scenario": "Clients are loving your product! Your system is stable and its new features have been very successful. You are in the fortunate position to expect a record number of users in the near future. While this is fantastic news, is your system able to handle the new load? Do you have tools or practices in place that help you test your system's resilience?"
+    },
+    {
+      "id": 29,
+      "scenario": "Your team had an outage. Your team members spent a lot of time finding the issue and fixing it. During a tea break, they overheard that colleagues from another team faced the same issue two weeks ago. However, the documentation about this issue was not made available outside their team. Do you have a tool to share information across teams that could have saved time fixing this bug?"
+    },
+    {
+      "id": 30,
+      "scenario": "Elena is working on a highly in-demand client feature which requires her full focus and concentration. As the most senior team member, she's also responsible for onboarding new team members. Juno and Scott recently joined the team. Their first tasks required them to be familiar with a particular library. Understandably, they both had follow-up questions about which they reached out to her independently. Nelly had pinned the documentation and FAQs to the team chat, but somehow the team missed these... Could the team automate the process of getting access to docs and FAQ using the team's communication channels?"
+    },
+    {
+      "id": 31,
+      "scenario": "Nelly and her team are working on a highly in-demand client feature which requires their full focus and concentration. They are working across many services and libraries, and when it comes to reviewing code it is difficult to keep track where the changes happened and when they need review. Is there a way to automatically post code changes in communication channels like the chat room?"
+    },
+    {
+      "id": 32,
+      "scenario": "Teams within your company have the habit of codifying standards and processes in Word documents that are uploaded somewhere. You were recently building a new app and did a quick search for relevant docs. You found three different versions in the system and all were outdated. You decided to retire the outdated documents and manually create a new 'up to date' version. Good for you! Is there a better way of doing this in the future?"
+    },
+    {
+      "id": 33,
+      "scenario": "Your organization has eighty one different versions of a library in production. All but one contain critical security vulnerabilities, and maintaining all those versions creates a lot of operational burden and stress. Furthermore, upgrading versions is risky and unsafe, thereby discouraging engineers from doing so, which perpetuates the problem. How can your company implement a reliable versioning system to make your team's life easier?"
+    },
+    {
+      "id": 34,
+      "scenario": "Sofia has been stuck for a while. However she had a breakthrough idea! She rushed to her laptop to change the algorithm and was eager to see it in action. Unfortunately, one of the dependent libraries rolled out a new version incompatible with the code! She now has to debug this issue before continuing with her task. Are there any tools or practices that could help minimize the impact of changes to libraries you depend on and that will help you maintain a good working code branch?"
+    },
+    {
+      "id": 35,
+      "scenario": "Your systems must support a lot of long running jobs at one time, which is computationally expensive. Your infrastructure is struggling to cope and is becoming a bottleneck for the users you are meant to support. In turn, they are experiencing severe delays in delivering their results. However, it is not obvious which part of the system is causing the slowness! Do you have a tool which will help you find out where the bottleneck is within your infrastructure?"
+    },
+    {
+      "id": 36,
+      "scenario": "It is the start of a new release cycle, and it is Martin's first time managing the release. Part of the release job is to fetch the code, compile it, and create the package that will get released to production. Oh no! He accidentally fetched the wrong version of the code and released an older version of the service! Manual processes are error prone. Is there a tool that will enable you to automate this release step?"
+    },
+    {
+      "id": 37,
+      "scenario": "Since you are developing proprietary applications, security is a big concern for your team. After you incorporated third-party software into your system, your application experienced a pen test* failure. The report showed that unauthorized parties could have gained access to your system. This failure was caused by a known vulnerability, how can you ensure that your system is secure and robust before new code is deployed? *Penetration test (pen test): a simulated attack on a computer system to evaluate its security and demonstrate the business impact of weaknesses."
+    },
+    {
+      "id": 38,
+      "scenario": "Your team deploys software in stages. This allows you to minimize client impact and test in production-like environments. Diana just finished her work on the new feature and deployed it to DEV - the first deployment stage. The typical schedule is to deploy to DEV, ALPHA, BETA, and then to PROD machines, leaving a few days between each stage for testing in each environment. So far, the team has been deploying manually. While waiting for the project to be tested, she started work on a fascinating new project! Oh no! She forgot to continue the feature release and missed the deadline! Is there a tool or practice that would make it easier to deploy? Can this be automated?"
+    }
+  ]
+}
