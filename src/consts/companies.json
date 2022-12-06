@@ -1,0 +1,33 @@
+{
+    "companies": [{
+        "id": 1,
+        "name": "Fast Brain",
+        "industry": "Artificial Intelligence(AI)",
+        "stage": "Mid-sized",
+        "size": "100 Employees",
+        "description": "Your company is trying to develop the ultimate AI - even including speech recognition for pets. To run such computationally intensive tasks, your team must enhance and support the infrastructure it uses to train all these models. These intense computations need lots of resources to run, but computers suitable for machine learning are very expensive! You must optimize space, memory, etc. to get the most out of the machines you've got. Infrastructure should be flawless and you don't want to cost your owners more money or be a bottleneck for the researchers.",
+        "motto": "Changing the world one woof at a time!",
+        "initial-devops-pipeline": "Remove the Manual Bottleneck, Immutable Infrastructure, Goodbye Darkness My Old Friend"
+    },
+    {
+        "id": 2,
+        "name": "Angry Ducks",
+        "industry": "Gaming",
+        "stage": "Early Start-up",
+        "size": "30 Employees",
+        "description": "You work for a small company that makes multi-platform games! It's a growing business and you need to move fast, otherwise competitors will reach the market before you. You would rather skip some tests than miss Black Friday or Christmas shopping season! You get to work with the latest technologies and have the freedom to choose whatever tools you want; however, it may come with a couple of late nights along the way!",
+        "motto":"You snooze, you lose!",
+        "initial-devops-pipeline": "Dark Launches, Big Brother Infrastructure, Go Beyond the Chat Room"
+    },
+    {
+        "id": 3,
+        "name": "Super Trade",
+        "industry": "FinTech",
+        "stage": "Mature",
+        "size": "20,000 employees",
+        "description": "Your company's main product is a computer software system that allows your subscribers to monitor and analyze real-time market data and conduct electronic trading. Your clients are many of the world's leading finance professionala who are very senstive to changes or outages. Despite how established your company is, there are strong contenders aggressively entering the market. Youneed to find a balance between delivering new features and giving your clients the best support!",
+        "motto":"Big data, big bucks!",
+        "initial-devops-pipeline": "Put the Pieces Together, Feature Toggles, Blame is Stupid"
+    }
+]
+}
