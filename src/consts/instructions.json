@@ -1,0 +1,31 @@
+{
+  "instructions": [
+    {
+      "name": "Game Setup",
+      "instructions": [
+        "Break into groups of 3-4 people.",
+        "Each group should then randomly select one of the 3 Company cards in the deck",
+        "Find the first 3 DevOps cards that represent your Company's initial pipeline(as noted on your Company card); lay them face up in front of you.",
+        "Shuffle the remaining 33 DevOps cards and place them face down in a pile",
+        "Shuffle the Scenario cards and place them face down in another pile"
+      ]
+    },
+    {
+        "name": "Pipeline Building",
+        "instructions": [
+            "Each player picks a DevOps card from the deck.",
+            "Read about the DevOps tools and discuss as a team.",
+            "Add one card to your Company's pipeline(unplayed cards stay in your hand and can be played in future rounds)."
+        ]
+    },
+    {
+        "name": "Scenario Handling",
+        "instruction": [
+            "First check if any Scenarios in the 'backlog' can be handled with your DevOps pipeline",
+            "Each player picks a Scenario card.",
+            "Each plays their Scenario: If your DevOps pipeline can handle the Scenario, add it to 'dealt with' pile.",
+            "If it can't be handled, add it to the 'backlog' pile, you can deal with it in future rounds"
+        ]
+    }
+  ]
+}
