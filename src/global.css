@@ -202,17 +202,22 @@ a.button {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    grid-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  justify-content: center;
 }
+
 .card {
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    width: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
+  overflow: hidden;
+  break-inside: avoid-column;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
 }
 
 .company .card__header {background: #6e833e;}
@@ -227,20 +232,20 @@ a.button {
 .card__header h2 {padding-top: 8px;}
 .card__body {vertical-align: top; padding: 12px 18px 0 18px;}
 .card__body .description {padding-top: 12px;}
+.card__body .button__select {
+  float: right;
+}
 .card__footer {padding: 12px 18px 0 18px;}
 .card__background {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 300px;
-    font-weight: bold;
-    position: absolute;
-    top: 60%;
-    margin: -50% 0 0 -50%;
-    opacity: .3;
-    z-index: -1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300px;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  margin: -50% 0 0 -50%;
+  opacity: .3;
+  z-index: -1;
 }
 ul{ padding-left: 8px; } 
 
-.button__select {
-  float: right;
-}
 
