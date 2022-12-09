@@ -6,7 +6,7 @@
  *
  */
 
-:root {
+/*:root {
   --qwik-dark-blue: #006ce9;
   --qwik-light-blue: #18b6f6;
   --qwik-light-purple: #ac7ff4;
@@ -115,7 +115,7 @@ a.mindblow {
   border-bottom: 4px solid black;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤯</text></svg>")
       16 0,
-    auto; /*!emojicursor.app*/
+    auto; 
 }
 
 a.mindblow:hover {
@@ -123,3 +123,44 @@ a.mindblow:hover {
   margin-bottom: 4px;
   transform: translateY(4px);
 }
+*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.company .card__header {background: #6e833e;}
+.company .card__background {color: #6e833e; left: 70%;}
+.scenario .card__header {background: #3d5e9b;}
+.scenario .card__background {color: #3d5e9b; left: 85%;}
+.devops .card__header {background: #6e833e;}
+.devops .card__background {color: #6e833e; left: 70%;}
+
+.card {font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.card__header{color: white;height: 60px;text-align: center;}
+.card__header h2 {padding-top: 8px;}
+.card__body {vertical-align: top; padding: 12px 18px 0 18px;}
+.card__body .description {padding-top: 12px;}
+.card__footer {padding: 12px 18px 0 18px;}
+.card__background {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    margin: -50% 0 0 -50%;
+    opacity: .3;
+    z-index: -1;
+}
+ul{ padding-left: 8px; } 
+
