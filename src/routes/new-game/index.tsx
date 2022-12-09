@@ -4,6 +4,7 @@ import data from '../../consts/companies.json';
 // import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
+
   return (
     <div>
       Choose your company
@@ -20,6 +21,7 @@ export default component$(() => {
             </>
         ))}
       </div>
+      <button onClick$={ () => history.back() }>Back to Instructions</button>
     </div>
   );
 });
