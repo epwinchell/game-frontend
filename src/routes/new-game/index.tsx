@@ -32,8 +32,6 @@ export default component$(() => {
             <div><b>Motto</b>: {com.motto}</div>
             <div><b>Initial DevOps Pipeline:</b> {com['initial-devops-pipeline']}</div>
           </div>
-          <div class="card__footer">
-          </div>
           <div class="card__background">C</div>
         </div>
         ))}
