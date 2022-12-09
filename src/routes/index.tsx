@@ -5,16 +5,22 @@ import data from "../consts/instructions.json";
 export default component$(() => {
   return (
     <div>
-      Hello! DevOps Journey Card Game
+    <h1><center>Welcome to the DevOps Journey Card Game</center></h1>
+    <div class="instructions">
+      <header>Instructions</header><br />
+      {/*Hello! DevOps Journey Card Game*/}
       {data.instructions.map((el)=> (
-        <div>
-        <div>{el.name}</div>
-        <div>{el.instructions?.map((ins)=>(
-          <div>{ins}</div>
-        ))}</div>
+        <div class="section">
+        <div class="subtitle">{el.name}</div>
+        <ol>{el.instructions?.map((ins)=>(
+          <li>{ins}</li>
+        ))}</ol>
         </div>
+
       ))}
-      <Link href="/new-game/">Start a new game</Link>
+      <Link class="button" href="/new-game/">Start a new game</Link>
+    </div>
     </div>
   );
 });
+

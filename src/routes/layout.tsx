@@ -12,6 +12,9 @@ export default component$(() => {
           <Slot />
         </section>
       </main>
-    </>
+      <p class="attribution" >
+        <a href="https://www.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_16788215.htm#query=light%20grey%20background&position=3&from_view=keyword">Image by benzoix</a> on Freepik
+      </p>
+   </>
   );
 });

@@ -16,7 +16,8 @@
 body {
   background-color: #fafafa;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
+<a href="https://www.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_16788215.htm#query=light%20grey%20background&position=3&from_view=keyword">Image by benzoix</a> on Freepik
+  height: 100%;
 }
 
 main {
@@ -125,11 +126,81 @@ a.mindblow:hover {
 }
 */
 
+
 .title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif; 
   font-size: 20px;
 
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 28px; 
+  color: black;
+  padding: 24px;
+}
+.instructions {
+  font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  width: 50%;
+  background: #fff;
+
+}
+
+.instructions header {
+  color: white;height: 60px;
+  text-align: center;
+  background: #75374e;
+  font-size: 30px;
+  padding-top: 16px;
+}
+.instructions .section {
+  padding: 12px 18px 0 18px;
+}
+
+.instructions .subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.instructions li {
+  line-height: 30px;
+}
+
+a.button {
+  color: #6e833e;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: auto;
+  padding: 8px 20px 8px 20px;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #6e833e;
 }
 
 .cards {
@@ -153,7 +224,7 @@ a.mindblow:hover {
 .devops .card__header {background: #6e833e;}
 .devops .card__background {color: #6e833e; left: 70%;}
 
-.card {font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.card {font-family: Arial, Helvetica, sans-serif; font-size: 13px; background: #fff}
 .card__header{color: white;height: 60px;text-align: center;}
 .card__header h2 {padding-top: 8px;}
 .card__body {vertical-align: top; padding: 12px 18px 0 18px;}
