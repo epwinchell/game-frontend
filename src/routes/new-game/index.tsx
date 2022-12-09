@@ -7,18 +7,26 @@ export default component$(() => {
 
   return (
     <div>
-      Choose your company
-      <div>
+      <h1>Choose your company</h1><br/>
+      <div class="cards">
         {data.companies.map((com)=>(
-            <>
-            <div>{com.name}</div>
+        <div class="card company">
+          <div class="card__header company">
+            <h2>{com.name}</h2></div>
+
+          <div class="card__body">
             <div>{`Industry: ${com.industry}`}</div>
             <div>{`Stage: ${com.stage}`}</div>
-            <div>{`Size: ${com.size}`}</div>
-            <div>{com.description}</div>
-            <div>{`Motto: ${com.motto}`}</div>
-            <div>{`Initial DevOps Pipeline: ${com['initial-devops-pipeline']}`}</div>
-            </>
+            <div>{`Size: ${com.size}`}<br/></div>
+            <div class="description">{com.description}</div>
+          </div>
+          <div class="card__footer">
+            <div><b>Motto</b>: {com.motto}</div>
+            <div><b>Initial DevOps Pipeline:</b> {com['initial-devops-pipeline']}</div>
+          </div>
+          <div class="card__footer"></div>
+          <div class="card__background">C</div>
+        </div>
         ))}
       </div>
       <button onClick$={ () => history.back() }>Back to Instructions</button>
