@@ -7,7 +7,9 @@ export default component$(() => {
 
   return (
     <div>
+      <div class="title">
       <h1>Choose your company</h1><br/>
+      </div>
       <div class="cards">
         {data.companies.map((com)=>(
         <div class="card company">
@@ -15,6 +17,12 @@ export default component$(() => {
             <h2>{com.name}</h2></div>
 
           <div class="card__body">
+          <div class="button__select">
+              <a href=""><button>
+                Select
+                </button>
+                </a>
+                </div>
             <div>{`Industry: ${com.industry}`}</div>
             <div>{`Stage: ${com.stage}`}</div>
             <div>{`Size: ${com.size}`}<br/></div>
@@ -24,11 +32,13 @@ export default component$(() => {
             <div><b>Motto</b>: {com.motto}</div>
             <div><b>Initial DevOps Pipeline:</b> {com['initial-devops-pipeline']}</div>
           </div>
-          <div class="card__footer"></div>
+          <div class="card__footer">
+          </div>
           <div class="card__background">C</div>
         </div>
         ))}
       </div>
+      <br></br>
       <button onClick$={ () => history.back() }>Back to Instructions</button>
     </div>
   );
