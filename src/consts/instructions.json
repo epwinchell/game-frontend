@@ -20,7 +20,7 @@
     },
     {
         "name": "Scenario Handling",
-        "instruction": [
+        "instructions": [
             "First check if any Scenarios in the 'backlog' can be handled with your DevOps pipeline",
             "Each player picks a Scenario card.",
             "Each plays their Scenario: If your DevOps pipeline can handle the Scenario, add it to 'dealt with' pile.",

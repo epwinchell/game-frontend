@@ -1,6 +1,6 @@
 import { component$, Slot } from '@builder.io/qwik';
 import Header from '../components/header/header';
-import { DocumentHead } from '@builder.io/qwik-city';
+//import { DocumentHead } from '@builder.io/qwik-city';
 // import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
@@ -15,7 +15,3 @@ export default component$(() => {
     </>
   );
 });
-
-export const head: DocumentHead = {
-  title: 'Qwik Flower',
-};
