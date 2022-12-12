@@ -201,6 +201,21 @@ a.button {
   border: 2px solid #6e833e;
 }
 
+.button-game {
+  color: #6e833e;
+  text-decoration: none;
+  width: 150px;
+  display: flex;
+  font-size: 20px;
+  padding: 8px 20px 8px 20px;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #6e833e;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -220,12 +235,23 @@ a.button {
   position: relative;
 }
 
+.card-game {
+  overflow: hidden;
+  break-inside: avoid-column;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
 .company .card__header {background: #6e833e;}
 .company .card__background {color: #6e833e; left: 70%;}
 .scenario .card__header {background: #3d5e9b;}
 .scenario .card__background {color: #3d5e9b; left: 85%;}
-.devops .card__header {background: #6e833e;}
-.devops .card__background {color: #6e833e; left: 70%;}
+.devops .card__header {background: #a346dd ;}
+.devops .card__background {color: #a346dd ; left: 70%;}
 
 .card {font-family: Arial, Helvetica, sans-serif; font-size: 13px; background: #fff}
 .card__header{color: white;height: 60px;text-align: center;}
@@ -248,4 +274,20 @@ a.button {
 }
 ul{ padding-left: 8px; } 
 
+.add-margin {
+  margin-top: 18px;
+}
 
+.footer-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 16px;
+}
+
+.footer-button {
+  padding: 6px 15px;
+  color: #1519f3;
+  border: 2px solid #1519f3;
+  border-radius: 8px;
+}
